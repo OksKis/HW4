@@ -11,7 +11,7 @@ public class Task4_2 {
         System.out.println("Input number: ");
         int a = sc.nextInt();
 
-        int fact=1;
+        double fact=1;
         if (a > 4 && a < 16) {
             while ( a > 0) {
                 fact = fact * a;
